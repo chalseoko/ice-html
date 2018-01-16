@@ -1,0 +1,13 @@
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
