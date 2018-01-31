@@ -27,13 +27,13 @@
         Submit the form to record your choice!
       </h3>
       <form>
-        What is your name?
+        <label for="name">What is your name?</label>
         <input type="text" value="Mary Sue" name="name" />
-        <br /> <br /> Pick a photo!
+        <br /> <br /> <label>Pick a photo!</label>
         <br />
-        <input type="radio" name="pic" value="cat" /> Cat <br />
-        <input type="radio" name="pic" value="turtle" /> Turtle <br />
-        <input type="radio" name="pic" value="puppy"/> Puppy <br />
+        <input type="radio" name="pic" id="cat"/> <label for="cat">Cat</label><br />
+        <input type="radio" name="pic" id="turtle"/> <label for="turtle">turtle</label> <br />
+        <input type="radio" name="pic" id="puppy"> <label for="puppy">Puppy</label> <br />
         <br />
         <input type="submit" value="Submit!"/>
       </form>
